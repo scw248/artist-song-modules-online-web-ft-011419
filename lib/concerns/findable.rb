@@ -1,7 +1,8 @@
 module Findable
-  # module ClassInstances
+  module ClassInstances
    def self.find_by_name(name)
     self.all.detect{|a| a.name == name}
    end
-  # end
+  end
 end
+
